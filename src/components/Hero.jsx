@@ -4,13 +4,19 @@ import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 import Generating from "./Generating";
 import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
+  const [modalOpen, setModalOpen] = useState(false);
+
+  // Lock background scroll when modal is open
+  useEffect(() => {
+    document.body.style.overflow = modalOpen ? "hidden" : "auto";
+  }, [modalOpen]);
 
   return (
     <Section
@@ -37,12 +43,12 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-           We build custom AI agents that automate up to 80% of your workflows
-          from lead qualification to customer support. Our clients see 5x faster response times, 60% cost savings, and 24/7 smart operations. 
-          This isn’t just automation — it’s intelligent business at scale.
+            We build custom AI agents that automate up to 80% of your workflows
+            from lead qualification to customer support. Our clients see 5x faster response times, 60% cost savings, and 24/7 smart operations. 
+            This isn’t just automation — it’s intelligent business at scale.
           </p>
-          <Button a href="https://calendly.com/cursious-ai/30min?month=2025-07" target="blank" white>
-            Automate with Us
+          <Button onClick={() => setModalOpen(true)} white>
+            atch Demo
           </Button>
         </div>
 
@@ -103,6 +109,28 @@ const Hero = () => {
         {/* Logos */}
         <CompanyLogos className="hidden relative z-10 mt-20 lg:block" />
       </div>
+
+      {/* Video Modal */}
+      {modalOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-80">
+          <div className="relative w-full max-w-3xl mx-4 md:mx-0 aspect-video bg-white rounded-lg overflow-hidden">
+            <button
+              onClick={() => setModalOpen(false)}
+              className="absolute top-2 right-2 text-white bg-black bg-opacity-50 rounded-full p-1 hover:bg-opacity-80 z-10 text-lg"
+            >
+              ✕
+            </button>
+
+            <iframe
+              className="w-full h-full"
+              src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7346666067991154689?compact=1"
+              frameBorder="0"
+              allowFullScreen
+              title="Cursious LinkedIn Video"
+            ></iframe>
+          </div>
+        </div>
+      )}
 
       <BottomLine />
     </Section>
