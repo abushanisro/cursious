@@ -42,7 +42,7 @@ import protopie from "./collaboration/google.png";
 import raindrop from "./collaboration/raindrop.png";
 import slack from "./collaboration/slack.png";
 
-import service1 from "./services/ser.png";
+import service1 from "./services/image5.png";
 import service2 from "./services/robotser.jpg";
 import service3 from "./services/service1.jpg";
 
