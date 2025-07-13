@@ -36,7 +36,7 @@ const Collaboration = () => {
         {/* Right Graphic Section */}
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
           <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto">
-            Curious AI builds task agents that connect with your tools, learn your workflows, and free your time. 
+            Cursious AI builds task agents that connect with your tools, learn your workflows, and free your time. 
             Less juggling, more flow. Let AI be your co-pilot.
           </p>
 
@@ -48,7 +48,7 @@ const Collaboration = () => {
                     src={cursiousSymbol}
                     width={48}
                     height={48}
-                    alt="Curious AI"
+                    alt="Cursious AI"
                   />
                 </div>
               </div>

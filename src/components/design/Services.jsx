@@ -10,7 +10,7 @@ export const Gradient = () => {
         src={gradient}
         width={1417}
         height={1417}
-        alt="Curious AI Gradient Background"
+        alt="Cursious AI Gradient Background"
       />
     </div>
   );
@@ -20,7 +20,7 @@ export const Gradient = () => {
 export const PhotoChatMessage = () => {
   return (
     <div className="absolute top-8 right-8 max-w-[17.5rem] py-6 px-8 bg-black text-white rounded-t-xl rounded-bl-xl font-code text-base shadow-lg lg:top-16 lg:right-[8.75rem]">
-      Hey Curious AI, enhance this photo
+      Hey Cursious AI, enhance this photo
       <ChatBubbleWing className="absolute left-full bottom-0" />
     </div>
   );
@@ -36,7 +36,7 @@ export const VideoChatMessage = () => {
           src={cursiousWhiteSymbol}
           width={26}
           height={26}
-          alt="Curious AI Symbol"
+          alt=" AI Symbol"
         />
       </div>
       <p className="tagline absolute right-2.5 bottom-1 text-[0.625rem] text-n-3 uppercase">
@@ -59,3 +59,4 @@ export const VideoBar = () => {
     </div>
   );
 };
+Curious

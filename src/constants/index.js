@@ -212,7 +212,7 @@ export const benefits = [
   {
     id: "3",
     title: "Plug & Play Integration",
-    text: "Connect Curious AI to your tools like Slack, Notion, or CRM—no developers needed.",
+    text: "Connect Cursious AI to your tools like Slack, Notion, or CRM—no developers needed.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,

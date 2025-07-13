@@ -16,7 +16,7 @@ const Services = () => {
       <div className="container">
         <Heading
           title="AI Automation, Tailored for You"
-          text="At Curious AI, we build intelligent systems that save time, scale workflows, and unlock deep operational efficiency."
+          text="At Cursious AI, we build intelligent systems that save time, scale workflows, and unlock deep operational efficiency."
         />
 
         <div className="relative flex flex-col gap-y-10">

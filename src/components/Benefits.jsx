@@ -11,7 +11,7 @@ const Benefits = () => {
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Work Smarter with Curious AI Agents"
+          title="Work Smarter with Cursious AI Agents"
         />
 
         <div className="flex flex-wrap gap-10 mb-10">

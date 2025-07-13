@@ -26,7 +26,7 @@ const PricingList = () => {
           {/* CTA to contact or schedule */}
           <Button
             className="w-full mb-6"
-            href="mailto:contact@curiousai.agency"
+            href="mailto:contact@cursiousai.agency"
             white
           >
             Contact us

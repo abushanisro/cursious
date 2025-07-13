@@ -44,7 +44,7 @@ const Roadmap = () => (
   <Section className="overflow-hidden" id="roadmap">
     <div className="container md:pb-10">
       <Heading
-        tag="The future of Curious AI"
+        tag="The future of Cursious AI"
         title="AI automations in the pipeline"
         text="We're actively building powerful agent tools, integrations, and system upgrades that evolve with your needs. Here’s what’s coming."
       />

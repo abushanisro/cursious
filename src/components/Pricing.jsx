@@ -31,7 +31,7 @@ const Pricing = () => {
         <Heading
           tag="Let’s build your automation engine"
           title="Tailored AI solutions for your workflow"
-          text="No fixed plans. No one-size-fits-all. We co-create AI agents that fit your tools, goals, and operations. Curious to automate?"
+          text="No fixed plans. No one-size-fits-all. We co-create AI agents that fit your tools, goals, and operations. Cursious to automate?"
         />
 
         {/* Line design (optional visuals) */}

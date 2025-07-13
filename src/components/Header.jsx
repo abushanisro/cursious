@@ -34,7 +34,7 @@ const Header = () => {
       <div className="flex items-center h-[4.5rem] px-5 lg:px-8 xl:px-12 max-lg:py-3">
         {/* Logo */}
         <a className="block w-[12rem] xl:mr-8" href="#hero">
-          <img src={cursious} width={190} height={40} alt="Curious AI Logo" />
+          <img src={cursious} width={190} height={40} alt="Cursious AI Logo" />
         </a>
 
         {/* Navigation Links */}
