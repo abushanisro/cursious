@@ -48,7 +48,7 @@ const Hero = () => {
             This isn’t just automation — it’s intelligent business at scale.
           </p>
           <Button onClick={() => setModalOpen(true)} white>
-            atch Demo
+            Watch Demo
           </Button>
         </div>
 
